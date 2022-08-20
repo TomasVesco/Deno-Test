@@ -1,7 +1,8 @@
 {
-    "script": {
-        "start": {
-            "cmd": "deno run --allow-net server.ts"
-        }
+  "scripts": {
+    "start": {
+      "cmd": "deno run --allow-read --allow-net server.ts",
+      "desc": "run my server.ts file"
     }
+  }
 }
